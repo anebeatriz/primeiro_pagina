@@ -1,6 +1,9 @@
 .logotipo{
     width: 200px;
     border-radius: 200px;
+    position: absolute;
+    top: 45px;
+    left: 50px;
 }
 /*Mudei a fonte com o font-family*/
 body{
@@ -24,6 +27,8 @@ body{
 header{
     background-color:lightpink;
     border-radius: 50px;
+    position: relative;
+    height: 300px;
 }
 main{
     background-color:lightpink;
@@ -39,4 +44,28 @@ body{
 }
 h1{
     text-align: center;
+}
+footer{
+    height: 600px;
+    position: relative;
+}
+footer img{
+    margin-top: 60px;
+    position: absolute;
+    left: 41%;
+    top: 290px;
+} 
+footer h2{
+    padding: 20px;
+}
+footer a{
+    padding: 20px;
+}
+footer p{
+    padding: 5px;
+}
+header h1{
+    font-size: 80px;
+    top: 100px;
+    position: relative;
 }
